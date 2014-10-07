@@ -1,5 +1,5 @@
 pygments:    true 
 permalink:   /:categories/:title/
 markdown:    redcarpet
-url:         /Plant3G
+url:         /Plant3G/
 
