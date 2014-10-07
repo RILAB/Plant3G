@@ -1,6 +1,6 @@
 # Plant3G
 
-A toolset *plant3G* written with Python and R was designed to conduct GWA (genome-wide analysis), GEP (genomic-enable prediction) and GE (genome evolution) in plants. It combines many functions in a command line package, including SNP manipulated, SNP imputation for several experimental design, such as diallel, F1BC, RIL and diversity panel. See the project [homepage](http://www.rilab.org/Plant3G/) for usage details and examples.
+A toolset **plant3G** written with Python and R was designed to conduct GWA (genome-wide analysis), GEP (genomic-enable prediction) and GE (genome evolution) in plants. It combines many functions in a command line package, including SNP manipulation, SNP imputation from high density parental panels to progenies and conducting genome-wide studies with different approaches. See the project [homepage](http://www.rilab.org/Plant3G/) for usage details and examples.
 
 
 ## Installnation
