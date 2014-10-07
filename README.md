@@ -1,11 +1,10 @@
-zmSNPtools
-==========
+# Plant3G
 
-A collection of python codes designed to process a range of basic, \
-large-scale analyses for SNPs of maize diversity panel.
+A toolset *plant3G* written with Python and R was designed to conduct GWA (genome-wide analysis), GEP (genomic-enable prediction) and GE (genome evolution) in plants. It combines many functions in a command line package, including SNP manipulated, SNP imputation for several experimental design, such as diallel, F1BC, RIL and diversity panel. See the project [homepage](http://www.rilab.org/Plant3G/) for usage details and examples.
 
-Usage:
-=========
+
+## Installnation
+
 Copy the piece of python code to the directory in your $PATH:
 for example:
 ```
@@ -17,51 +16,6 @@ Then, you will be ready to run it
 $: impute4diallel -help
 ```
 
-Description
-=========
-### fpSNP
-find a set of population specific fingerprint SNPs
 
-## update of the program
-10/3/2014: v0.1 python code tested with a small set of simulated data
-
-## usage:
-
-```
-git clone git@github.com:yangjl/zmSNPtools.git
-cp zmSNPtools/packages/fpSNP/fpSNP_v0.1.py ~/bin/fpSNP
-export PATH=$PATH:~/bin/
-fpSNP -h
-
-```
-
-
-
-### impute4diallel
-SNP Imputation for maize diallel population from parental SNP panel to F1 hybrids.
-
-### dsf2GWAS
-transform density SNP format (DSF) to GWAS (gensel4.2 supported) and other formats
-
-### 
-
-
-
-
-Update
-=========
-### General
-1. changed gitignore
-2. unwatch the MyPack and test folders
-
-
-### packages:
-1. updated a SNP merge package **snp3merge**: merge hapmap1, hapmap2 and RNA-seq data
-2. updated **impute4diallel**
-3. updated **snpfrq**
-4. updated **merge4ames**
-
-### MyPack
-1. updated and tested **snp_sampling** program for XBSA project;
-
-
+## License
+This package is free and open source, licensed under GPL.
