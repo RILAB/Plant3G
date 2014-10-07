@@ -6,9 +6,7 @@ subtitle: plant breeding toolset
 
 ## Overview
 
-The **Plant3G** package was designed to be a transparent engine for dynamic
-report generation with R, solve some long-standing problems in Sweave, and
-combine features in other add-on packages into one package.
+The **Plant3G** package was designed to be a transparent engine for NGS-enabled genomic selection and genome-wide association studies.
 
 
 
@@ -37,4 +35,23 @@ package. By the way, several FAQ's in the Sweave manual are solved in
 The ideas are borrowed from other packages, and some of them are
 re-implemented in a different way (like cache). A selected list of features
 include:
+
+
+## Basic usage and data formats <a id="basic"></a>
+   - `DSF`: density SNP format (self defined)
+   - `VCF`: variant call format
+   - `HapMap`: 
+
+ 
+## SNP imputation <a id="impute"></a>
+   - `diallel`: from parental high density SNP panel to F1 hybrids. support several downstream analysis software, such as PLINK, SNPTEST, GenSel, ... 
+   - `RIL`: from parental high density SNP panel to RILs based on tagging SNPs of RILs.
+   - `F1BCn`: from parental high density SNP panel to progenies of the F1BCn based on GBS panel of F1BCn individuals (not implemented yet)
+
+    
+## SNP manipulation  <a id="manipulation"></a>
+
+
+
+
 
