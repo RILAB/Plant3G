@@ -43,6 +43,7 @@ include:
 ### GWAS and GS
 3rd party software will be to be install for conducting GWAS and GS. This package will generate a ready-to-run pipeline with user defined options.
 
+
    - `single-marker`: single-marker GWAS (**SNPTEST** reuired)
    - `bayes`: bayesian-based GWAS, including bayesA, bayesB and bayesC, each program with many options (**GenSel** required)
    - `GS-training`: training GS model (**GenSel** required)
@@ -51,6 +52,7 @@ include:
 
 ### Visualization
 A collection of visualization tools coded with R.
+
 
    - `Manhattan plot`: manhattan plot of GWAS results
    - `locuszoom`: zoom into certain region
