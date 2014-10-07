@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Jinliang Yang | 杨金良</title>
+  <meta name="author" content="Jinliang Yang | 杨金良"/>
+  <meta name="viewport" content="width=device-width; initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="/media/css/home.css">
+  <style type="text/css">
+  html, body {
+    background-color: #F8F8F8;
+  }
+  .container > footer p , .postheader > a{
+    text-align: center;
+  }
+  .date {
+    text-align: center;
+    height: 30px;
+    color:#bfbfbf;
+    margin-bottom: 10px;
+  }
+  /* Specify class=linenums on a pre to get line numbering */
+  ol.linenums {
+    margin: 0 0 0 33px; /* IE indents via margin-left */
+  } 
+  ol.linenums li {
+    padding-left: 12px;
+    color: #bebec5;
+    line-height: 18px;
+    text-shadow: 0 1px 0 #fff;
+  }
+  </style>
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-1988641-2']);
+    _gaq.push(['_trackPageview']);
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+</head>
+<body>
+  <div class="container">
+  <h1 class="sitename">Jinliang Yang</h1>
+  <ul class="nav pills">
+  <li><a href="/">Home</a></li>
+  <li><a href="/cn/">中文</a></li>
+  <li><a href="/en/">English</a></li>
+  <li><a href="/about/">about</a></li>
+</ul>
+{% if page.avatar %} <p><img src="img/cover.JPG" title="Jinliang Yang" align="right" /></p> {% endif %}
+<a href="https://twitter.com/share" class="twitter-share-button" data-via="erjjones">Tweet</a> 
+<!-- Put this just before the closing body tag -->
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+{{ content }}
+
+
+<footer>
+  <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> on GitHub | Copyright {{site.time | date:"%Y"}} by Jinliang Yang | <span class="label label-info">{{site.time | date:"%Y-%m-%d %H:%M:%S"}}</span></small></p>
+</footer>
+</div>
+</body>
+</html>
