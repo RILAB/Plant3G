@@ -10,11 +10,11 @@ Below is the description of the **BED+ format**. Modified from [UCSC](http://gen
 
 1. **chr** - The name of the chromosome (e.g. chr1, 1). 
 2. **start** - The starting position (zero-based) of the feature in the chromosome.
-- The first base in a chromosome is numbered 0.
-- For example, start=9, end=20 is interpreted to span bases 10 through 20, inclusive. 
+	+ The first base in a chromosome is numbered 0.
+	+ For example, start=9, end=20 is interpreted to span bases 10 through 20, inclusive. 
 3. **end** - The one-based ending position of the feature in the chromosome.
 4. **ID** - Defines the name of the BED feature.
-5. **+** - Unlimited columns of plants with Genotype information. Each column represent one plant.
+5. **[+++]** - Unlimited columns of plants with Genotype information. Each column represent one plant.
 
 -----
 
